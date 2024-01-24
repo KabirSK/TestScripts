@@ -1,0 +1,81 @@
+[{
+  "store_name": "HY-VEE #3 / BDI / DES MOINES",
+  "revenue": "43012462.23999992",
+  "category": "top 1"
+}, {
+  "store_name": "CENTRAL CITY 2",
+  "revenue": "37867057.189999893",
+  "category": "top 2"
+}, {
+  "store_name": "HY-VEE WINE AND SPIRITS / IOWA CITY",
+  "revenue": "16229547.609999988",
+  "category": "top 3"
+}, {
+  "store_name": "SAM\u0027S CLUB 8162 / CEDAR RAPIDS",
+  "revenue": "14173899.109999996",
+  "category": "top 4"
+}, {
+  "store_name": "SAM\u0027S CLUB 6344 / WINDSOR HEIGHTS",
+  "revenue": "13615997.139999986",
+  "category": "top 5"
+}, {
+  "store_name": "BENZ DISTRIBUTING",
+  "revenue": "12117083.349999998",
+  "category": "top 6"
+}, {
+  "store_name": "WILKIE LIQUORS",
+  "revenue": "11743320.25999999",
+  "category": "top 7"
+}, {
+  "store_name": "LOT-A-SPIRITS",
+  "revenue": "10291229.589999977",
+  "category": "top 8"
+}, {
+  "store_name": "SAM\u0027S CLUB 8238 / DAVENPORT",
+  "revenue": "9607399.6300000027",
+  "category": "top 9"
+}, {
+  "store_name": "CENTRAL CITY LIQUOR, INC.",
+  "revenue": "9255825.31999999",
+  "category": "top 10"
+}, {
+  "store_name": "WILDCAT DISTILLING / DUNCOMBE",
+  "revenue": "180.0",
+  "category": "bottom 9"
+}, {
+  "store_name": "WYCH DR DISTILLING CO / (ET)",
+  "revenue": "180.0",
+  "category": "bottom 10"
+}, {
+  "store_name": "HARTIG DRUG #12 / WAUKON",
+  "revenue": "178.97000000000003",
+  "category": "bottom 8"
+}, {
+  "store_name": "HONEY CREEK DISTILLERY",
+  "revenue": "78.600000000000023",
+  "category": "bottom 7"
+}, {
+  "store_name": "MARTELLE STORE / MARTELLE",
+  "revenue": "73.800000000000011",
+  "category": "bottom 6"
+}, {
+  "store_name": "BEST CASE WINES",
+  "revenue": "26.0",
+  "category": "bottom 5"
+}, {
+  "store_name": "HY-VEE WINE AND SPIRITS / WATERLOO!",
+  "revenue": "-2.0",
+  "category": "bottom 4"
+}, {
+  "store_name": "DASH EVENTS LLC",
+  "revenue": "-93.42",
+  "category": "bottom 3"
+}, {
+  "store_name": "SOUTHERN WINE \u0026 SPIRITS",
+  "revenue": "-1147.8899999999999",
+  "category": "bottom 2"
+}, {
+  "store_name": "DEHNER DISTILLERY",
+  "revenue": "-3048.2300000000009",
+  "category": "bottom 1"
+}]

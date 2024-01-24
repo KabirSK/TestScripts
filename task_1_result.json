@@ -1,0 +1,289 @@
+[{
+  "quarter": "2023 Q4",
+  "total_bottles_per_quarter": "8149520",
+  "total_revenue_per_quarter": "40152366.530000031",
+  "avg_revenue_per_quarter": "13384122.176666679",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2023 Q3",
+  "total_bottles_per_quarter": "7754946",
+  "total_revenue_per_quarter": "36815034.9200001",
+  "avg_revenue_per_quarter": "12271678.3066667",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2023 Q2",
+  "total_bottles_per_quarter": "8085237",
+  "total_revenue_per_quarter": "37529075.530000061",
+  "avg_revenue_per_quarter": "12509691.843333354",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2023 Q1",
+  "total_bottles_per_quarter": "7274163",
+  "total_revenue_per_quarter": "33503337.120000038",
+  "avg_revenue_per_quarter": "11167779.040000012",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2022 Q4",
+  "total_bottles_per_quarter": "8210345",
+  "total_revenue_per_quarter": "39959816.120000169",
+  "avg_revenue_per_quarter": "13319938.706666723",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2022 Q3",
+  "total_bottles_per_quarter": "7919200",
+  "total_revenue_per_quarter": "37216103.260000087",
+  "avg_revenue_per_quarter": "12405367.753333362",
+  "monthly_revenue_10_perc_above": ["", "", "August"]
+}, {
+  "quarter": "2022 Q2",
+  "total_bottles_per_quarter": "7954533",
+  "total_revenue_per_quarter": "36289195.64000006",
+  "avg_revenue_per_quarter": "12096398.546666687",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2022 Q1",
+  "total_bottles_per_quarter": "6347945",
+  "total_revenue_per_quarter": "28931051.590000071",
+  "avg_revenue_per_quarter": "9643683.8633333575",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2021 Q4",
+  "total_bottles_per_quarter": "8295997",
+  "total_revenue_per_quarter": "39306523.819999963",
+  "avg_revenue_per_quarter": "13102174.606666656",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2021 Q3",
+  "total_bottles_per_quarter": "7794872",
+  "total_revenue_per_quarter": "35760157.329999983",
+  "avg_revenue_per_quarter": "11920052.44333333",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2021 Q2",
+  "total_bottles_per_quarter": "8003129",
+  "total_revenue_per_quarter": "35687593.14000003",
+  "avg_revenue_per_quarter": "11895864.380000012",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2021 Q1",
+  "total_bottles_per_quarter": "7109539",
+  "total_revenue_per_quarter": "31547743.599999994",
+  "avg_revenue_per_quarter": "10515914.533333331",
+  "monthly_revenue_10_perc_above": ["", "", "March"]
+}, {
+  "quarter": "2020 Q4",
+  "total_bottles_per_quarter": "8012425",
+  "total_revenue_per_quarter": "36646414.37999998",
+  "avg_revenue_per_quarter": "12215471.459999995",
+  "monthly_revenue_10_perc_above": ["", "December", ""]
+}, {
+  "quarter": "2020 Q3",
+  "total_bottles_per_quarter": "7738185",
+  "total_revenue_per_quarter": "34962452.959999993",
+  "avg_revenue_per_quarter": "11654150.986666664",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2020 Q2",
+  "total_bottles_per_quarter": "7686783",
+  "total_revenue_per_quarter": "33321364.739999961",
+  "avg_revenue_per_quarter": "11107121.579999987",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2020 Q1",
+  "total_bottles_per_quarter": "6403871",
+  "total_revenue_per_quarter": "27135387.030000016",
+  "avg_revenue_per_quarter": "9045129.0100000054",
+  "monthly_revenue_10_perc_above": ["", "", "March"]
+}, {
+  "quarter": "2019 Q4",
+  "total_bottles_per_quarter": "7436187",
+  "total_revenue_per_quarter": "33142786.209999979",
+  "avg_revenue_per_quarter": "11047595.403333327",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2019 Q3",
+  "total_bottles_per_quarter": "6768175",
+  "total_revenue_per_quarter": "29159375.370000008",
+  "avg_revenue_per_quarter": "9719791.7900000028",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2019 Q2",
+  "total_bottles_per_quarter": "6921567",
+  "total_revenue_per_quarter": "29763404.139999986",
+  "avg_revenue_per_quarter": "9921134.71333333",
+  "monthly_revenue_10_perc_above": ["", "May", ""]
+}, {
+  "quarter": "2019 Q1",
+  "total_bottles_per_quarter": "5718410",
+  "total_revenue_per_quarter": "24368560.099999987",
+  "avg_revenue_per_quarter": "8122853.3666666616",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2018 Q4",
+  "total_bottles_per_quarter": "7180270",
+  "total_revenue_per_quarter": "32782809.40999997",
+  "avg_revenue_per_quarter": "10927603.136666657",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2018 Q3",
+  "total_bottles_per_quarter": "6207440",
+  "total_revenue_per_quarter": "26841415.03999991",
+  "avg_revenue_per_quarter": "8947138.3466666359",
+  "monthly_revenue_10_perc_above": ["", "August", ""]
+}, {
+  "quarter": "2018 Q2",
+  "total_bottles_per_quarter": "6539609",
+  "total_revenue_per_quarter": "28279862.389999978",
+  "avg_revenue_per_quarter": "9426620.79666666",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2018 Q1",
+  "total_bottles_per_quarter": "5507721",
+  "total_revenue_per_quarter": "23318863.029999942",
+  "avg_revenue_per_quarter": "7772954.3433333142",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2017 Q4",
+  "total_bottles_per_quarter": "6538072",
+  "total_revenue_per_quarter": "29714764.029999949",
+  "avg_revenue_per_quarter": "9904921.343333317",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2017 Q3",
+  "total_bottles_per_quarter": "6006441",
+  "total_revenue_per_quarter": "25563732.209999952",
+  "avg_revenue_per_quarter": "8521244.0699999835",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2017 Q2",
+  "total_bottles_per_quarter": "6152964",
+  "total_revenue_per_quarter": "26440037.16999995",
+  "avg_revenue_per_quarter": "8813345.7233333178",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2017 Q1",
+  "total_bottles_per_quarter": "5292540",
+  "total_revenue_per_quarter": "22461205.109999955",
+  "avg_revenue_per_quarter": "7487068.3699999852",
+  "monthly_revenue_10_perc_above": ["", "March", ""]
+}, {
+  "quarter": "2016 Q4",
+  "total_bottles_per_quarter": "6367673",
+  "total_revenue_per_quarter": "28273405.779999942",
+  "avg_revenue_per_quarter": "9424468.5933333132",
+  "monthly_revenue_10_perc_above": ["", "December", ""]
+}, {
+  "quarter": "2016 Q3",
+  "total_bottles_per_quarter": "5377804",
+  "total_revenue_per_quarter": "24755952.59999992",
+  "avg_revenue_per_quarter": "8251984.1999999732",
+  "monthly_revenue_10_perc_above": ["", "August", ""]
+}, {
+  "quarter": "2016 Q2",
+  "total_bottles_per_quarter": "5839655",
+  "total_revenue_per_quarter": "25328727.209999945",
+  "avg_revenue_per_quarter": "8442909.0699999817",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2016 Q1",
+  "total_bottles_per_quarter": "5085186",
+  "total_revenue_per_quarter": "21888442.689999975",
+  "avg_revenue_per_quarter": "7296147.5633333242",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2015 Q4",
+  "total_bottles_per_quarter": "5955760",
+  "total_revenue_per_quarter": "26871134.339999907",
+  "avg_revenue_per_quarter": "8957044.7799999677",
+  "monthly_revenue_10_perc_above": ["", "December", ""]
+}, {
+  "quarter": "2015 Q3",
+  "total_bottles_per_quarter": "5309186",
+  "total_revenue_per_quarter": "22920404.649999924",
+  "avg_revenue_per_quarter": "7640134.8833333077",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2015 Q2",
+  "total_bottles_per_quarter": "5503883",
+  "total_revenue_per_quarter": "24210274.109999903",
+  "avg_revenue_per_quarter": "8070091.3699999675",
+  "monthly_revenue_10_perc_above": ["June", "", ""]
+}, {
+  "quarter": "2015 Q1",
+  "total_bottles_per_quarter": "4803614",
+  "total_revenue_per_quarter": "21063315.519999966",
+  "avg_revenue_per_quarter": "7021105.1733333217",
+  "monthly_revenue_10_perc_above": ["", "", "March"]
+}, {
+  "quarter": "2014 Q4",
+  "total_bottles_per_quarter": "5753361",
+  "total_revenue_per_quarter": "25955071.899999958",
+  "avg_revenue_per_quarter": "8651690.63333332",
+  "monthly_revenue_10_perc_above": ["", "December", ""]
+}, {
+  "quarter": "2014 Q3",
+  "total_bottles_per_quarter": "5148353",
+  "total_revenue_per_quarter": "22247064.899999961",
+  "avg_revenue_per_quarter": "7415688.2999999877",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2014 Q2",
+  "total_bottles_per_quarter": "5223474",
+  "total_revenue_per_quarter": "22781415.530000012",
+  "avg_revenue_per_quarter": "7593805.1766666705",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2014 Q1",
+  "total_bottles_per_quarter": "4541071",
+  "total_revenue_per_quarter": "19623557.640000008",
+  "avg_revenue_per_quarter": "6541185.8800000036",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2013 Q4",
+  "total_bottles_per_quarter": "5635745",
+  "total_revenue_per_quarter": "25597011.200000037",
+  "avg_revenue_per_quarter": "8532337.06666668",
+  "monthly_revenue_10_perc_above": ["", "October", ""]
+}, {
+  "quarter": "2013 Q3",
+  "total_bottles_per_quarter": "4996049",
+  "total_revenue_per_quarter": "21194101.520000093",
+  "avg_revenue_per_quarter": "7064700.5066666966",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2013 Q2",
+  "total_bottles_per_quarter": "5024136",
+  "total_revenue_per_quarter": "21571853.740000054",
+  "avg_revenue_per_quarter": "7190617.9133333517",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2013 Q1",
+  "total_bottles_per_quarter": "4278762",
+  "total_revenue_per_quarter": "18169577.470000014",
+  "avg_revenue_per_quarter": "6056525.823333337",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2012 Q4",
+  "total_bottles_per_quarter": "5851964",
+  "total_revenue_per_quarter": "26418809.829999987",
+  "avg_revenue_per_quarter": "8806269.94333333",
+  "monthly_revenue_10_perc_above": ["October", "", ""]
+}, {
+  "quarter": "2012 Q3",
+  "total_bottles_per_quarter": "4792197",
+  "total_revenue_per_quarter": "20215281.069999985",
+  "avg_revenue_per_quarter": "6738427.0233333288",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2012 Q2",
+  "total_bottles_per_quarter": "5054523",
+  "total_revenue_per_quarter": "21480255.660000008",
+  "avg_revenue_per_quarter": "7160085.2200000025",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}, {
+  "quarter": "2012 Q1",
+  "total_bottles_per_quarter": "4218720",
+  "total_revenue_per_quarter": "17464148.690000005",
+  "avg_revenue_per_quarter": "5821382.8966666693",
+  "monthly_revenue_10_perc_above": ["", "", ""]
+}]
