@@ -1,0 +1,62 @@
+WITH
+  products_dataset AS (
+  SELECT
+    FORMAT_DATE('%Y Q%Q', date) AS quarter,
+    FORMAT_DATE('%B', date) AS month,
+    FORMAT_DATE('%Y', date) AS year,
+    SUM(bottles_sold) AS total_bottles,
+    SUM(state_bottle_cost * bottles_sold) AS total_bottle_cost,
+    SUM(sale_dollars) AS total_sales
+  FROM
+    `bigquery-public-data.iowa_liquor_sales.sales`
+  GROUP BY
+    1,
+    2,
+    3 ),
+  revenue_per_month AS (
+  SELECT
+    quarter,
+    month,
+    year,
+    total_bottles,
+    SUM(total_sales - total_bottle_cost) AS total_revenue
+  FROM
+    products_dataset
+  GROUP BY
+    1,
+    2,
+    3,
+    4 ),
+  revenue_average_per_quarter AS (
+  SELECT
+    quarter,
+    SUM(total_bottles) AS total_bottles_per_quarter,
+    SUM(total_revenue) AS total_revenue_per_quarter,
+    AVG(total_revenue) AS avg_revenue_per_quarter
+  FROM
+    revenue_per_month
+  GROUP BY
+    1 )
+SELECT
+  rpm.quarter,
+  rapq.total_bottles_per_quarter,
+  rapq.total_revenue_per_quarter,
+  rapq.avg_revenue_per_quarter,
+  ARRAY_AGG(
+    CASE
+      WHEN total_revenue > rapq.avg_revenue_per_quarter * 1.10 THEN rpm.month
+    ELSE
+    ''
+  END
+    ) AS monthly_revenue_10_perc_above
+FROM
+  revenue_per_month rpm
+INNER JOIN
+  revenue_average_per_quarter rapq
+ON
+  rpm.quarter = rapq.quarter
+GROUP BY
+  1,
+  2,
+  3,
+  4
