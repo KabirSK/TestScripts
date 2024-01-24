@@ -1,0 +1,30 @@
+WITH
+  orders_invoices AS (
+  SELECT
+    LEFT(invoice_and_item_number, LENGTH(invoice_and_item_number) -4) AS invoice,
+    county
+  FROM
+    `bigquery-public-data.iowa_liquor_sales.sales`
+  GROUP BY
+    1,
+    2 ),
+  filtered_orders AS(
+  SELECT
+    LEFT(invoice_and_item_number, LENGTH(invoice_and_item_number) -4) AS invoice,
+    SUM(sale_dollars) AS total_invoice
+  FROM
+    `bigquery-public-data.iowa_liquor_sales.sales`
+  GROUP BY
+    1
+  HAVING
+    total_invoice > 100000 )
+SELECT
+  DISTINCT oi.county
+FROM
+  orders_invoices oi
+INNER JOIN
+  filtered_orders fo
+ON
+  oi.invoice = fo.invoice
+WHERE
+  oi.county IS NOT NULL
