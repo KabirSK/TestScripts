@@ -1,0 +1,40 @@
+WITH
+  revenue_by_store AS (
+  SELECT
+    store_name,
+    SUM(sale_dollars) - SUM(state_bottle_cost * bottles_sold) AS revenue
+  FROM
+    `bigquery-public-data.iowa_liquor_sales.sales`
+  GROUP BY
+    1 ),
+  top_10_sales AS (
+  SELECT
+    store_name,
+    revenue,
+    CONCAT('top ',ROW_NUMBER() OVER (ORDER BY revenue DESC) ) AS category
+  FROM
+    revenue_by_store
+  ORDER BY
+    revenue DESC
+  LIMIT
+    10 ),
+  bottom_10_sales AS (
+  SELECT
+    store_name,
+    revenue,
+    CONCAT('bottom ',ROW_NUMBER() OVER (ORDER BY revenue ASC)) AS category
+  FROM
+    revenue_by_store
+  ORDER BY
+    revenue ASC
+  LIMIT
+    10 )
+SELECT
+  *
+FROM
+  top_10_sales
+UNION ALL
+SELECT
+  *
+FROM
+  bottom_10_sales
